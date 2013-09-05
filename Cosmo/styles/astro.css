@@ -1,0 +1,227 @@
+/**General Definitions**/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #000033;
+	color: #FFFFFF;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	border: 0px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	color: #003399;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+	color: #ffffcc;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+h4{
+	color: #330000;
+	font-size:14px;
+	font-weight:bold;
+}
+
+h5{
+	font-size: 8pt;
+}
+
+
+/**divs**/
+
+
+/**wrapper div that contains the rest of the page**/
+#PageShell{
+	width: 780px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	background-color: #ffffcc;
+	/**zoom: 1;**/
+	height: 100%;
+}
+
+/**header div, in PageShell, contains banner**/
+#Header{
+	width: 100%;
+	height: 180px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	/**zoom: 1;**/
+}
+
+/**Navbar div, in PageShell**/
+#Navbar{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	clear: left;
+	float: left;
+	background-color: #280c08;
+	color: #ffffcc;
+	font-size: 14px;
+	zoom: 1;
+	height: 100%;
+}
+
+/**defines properties of <ul> in the Navbar**/
+#Navbar ul, a ul, ul a{
+	border-bottom: 1pt solid #200000;
+	margin: 0;
+	padding: 2px;
+}
+
+/**defines properties of <a><ul> in the Navbar**/
+
+#Navbar a, ul{
+	color: #ffffcc;
+}
+
+/**Changes the color of a line in the navbar when the user mousesover that line**/
+#Navbar ul:hover, a ul:hover, a:hover ul, a:hover ul:hover{
+	border-bottom: 1pt solid #330000;
+	border-right: 1pt solid #330000;
+	margin: 0;
+	padding: 2px;
+	background-color: #ffffcc;
+	color: #330000;
+	text-decoration: none;
+}
+
+/**specifies the behavior of links in a mousedover navbar line**/
+#Navbar ul:hover, a ul:hover, a:hover ul, a:hover ul:hover{
+	color: #330000;
+	text-decoration: none;
+}
+
+/**div in Navbar, shows hierarchical location in the website**/
+#Location{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family:"Times New Roman", Times, serif;
+	font-size:10pt;
+	/**zoom: 1;**/
+	color: #ffffcc;
+}
+
+/**defines properties of <a> in the Location div**/
+#Location a{
+	color: #ffffcc;
+}
+
+/**Contains the main content of the page**/
+#Content{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 580px;
+	clear: right;
+	float: right;
+	color: #330000;
+	z-index: 1;
+}
+
+/**defines properties of <a> in the Content div**/
+#Content a{
+	color: #991111;
+}
+
+#Content a:hover{
+	text-decoration: underline;
+}
+
+
+/**feature-1 div, in Content, holds the thumbnail Clear Sky Clock**/
+#feature-1{
+	width: 271px;
+	float: left;
+	border: 1px solid #330000;
+	padding: 0;
+	margin: 0;
+	/**zoom: 1;**/
+	color: #330000;
+}
+
+#feature-1 a{
+	color: #330000;
+}
+
+#feature-1 a:hover{
+	font-weight: bold;
+}
+
+/**News div, in Content, gives headlines**/
+#News{
+	width: 165px;
+	min-height: 300px;
+	float: right;
+	/**zoom: 1;
+	/**height: 100%;**/
+	/**border-left: 1pt solid #330000;**/
+	/**color: #ffffcc;
+	/**background-color: #280c08;**/
+	margin: 0px;
+	padding: 2px;
+	border-left: thin #330000 dotted;
+	font-family:"Times New Roman", Times, serif;
+	color: #330000;
+	/**background-image:url(../images/gradient22.png);**/
+}
+
+#NewsSpace{
+	float: left;
+	clear: both;
+	width:200px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffcc;
+}
+
+
+#News h4{
+	color: #330000;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#News strong{
+	font-weight:bold;
+	color:#0033CC;
+}
+
+/**Footer div, in PageShell, contains contact info. and date of last update**/
+#Footer{
+	margin: 0;
+	padding: 0;
+	border:0;
+	clear: both;
+	background-color:#000033;
+	text-align:center;
+	/*zoom: 1;**/
+}
+
+#Footer a{
+	color: #ffffcc;
+}

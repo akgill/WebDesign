@@ -1,0 +1,19 @@
+To:[name] <[email]>
+CC:Amandeep_Gill@brown.edu
+From:BUGS Reservation <Amandeep_Gill@brown.edu>
+Subject:PIRATES reservation: [number] for [show], [name]
+
+Hello [name], this email confirms that you have reserved tickets for the BUGS production of RUDDIGORE.
+
+You have requested [number] tickets for this show: [show]
+
+(The Sunday gag show may not be suitable for children (PG-13) and will definitely not be suitable for G&S purists!)
+
+Please note that reservations must be made at least 12 hours prior to showtime, or they may not be processed -- even if you get this email.
+
+The production will be in Alumnae Hall of the Brown University Campus.
+Campus Map: http://fm-cad.plantops.brown.edu/maps/PAUR_Campus_Map.pdf
+
+Seating will begin 30 minutes prior to the showtime.  Please arrive at least 15 minutes before showtime to guarantee seating.  All tickets are open seating.
+
+Admission is free, but BUGS depends on audience donations.
